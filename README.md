@@ -1,1 +1,6 @@
 # TiOR4
+Here are the conformational ensembles and energetic characteristics of titanium alkoxides Ti(OR)4.
+ENSEMBLES folder containes full confromational ensembles generated with CREST (CREST folder) and Uniconf (UNICONF and UNICONF_33 folders) in form of the *conformers.xyz files.
+XYZ_FREQ contains r2SCAN-3c (R2SCAN-3C folder) and PBE0-D3(BJ) (PBE0-D3BJ folder) optimized geometries and frequencies of the stable confromers from each ensemble in form of the *.dat files for each assessed methodology (CREST, UNICONF and UNICONF_33 folders). dG_stable in the name of a file means the conformer was found stable by absolute Gibbs free energy sorting from the GFN2-xTB approximation, dE_stable means the conformer was found stable with electronic GFN2-xTB energy sorting, dE_dG_stable means dG and dE sorting gives the same stable conformer.
+THERMOCHEMISTRY folder contains energy contributions within the Feller-Peterson-Dixon approach combined with the DLPNO-CCSD(T) method (ENERGY folder) for reference species (REF folder) and titanium alkoxides (TiOR4 folder).
+REACTIONS folder contains lists of all working reactions, used to derive gas-phase enthalpies of formation, in the form of *reactions.list files, and corresponding sets of reference species for each list in the form of *refs.tmp files
