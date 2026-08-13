@@ -1,5 +1,5 @@
 # TiOR<sub>4</sub>
-Here are the conformational ensembles and energetic characteristics of titanium alkoxides Ti(OR)<sub>4</sub>.
+Here are the conformational ensembles and energetic characteristics of titanium alkoxides Ti(OR)<sub>4</sub> and auxiliary data.
 ## Data description
 - **ENSEMBLES** contains Uniconf input files for the systematic search (**UNICONF**) and conformational search with clusterization (**UNICONF_33**) in the form of `*uni.inp` files.
 - **XYZ_FREQ** contains r<sup>2</sup>SCAN-3c (**R2SCAN-3C** folder) and PBE0-D3(BJ) (**PBE0-D3BJ** folder) optimized geometries and frequencies of the stable confromers from each ensemble (**TiOR4** folder) for the assessed methodologies (**CREST**, **UNICONF** and **UNICONF_33** folders) and reference species (**REF** folder) in form of the `*.dat` files. `dG_stable` in the name of a file means the conformer was found stable by absolute Gibbs free energy sorting from the GFN2-xTB approximation, `dE_stable` means the conformer was found stable with electronic GFN2-xTB energy sorting, `dE_dG_stable` means dG and dE sorting gives the same stable conformer.</br>
