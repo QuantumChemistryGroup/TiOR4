@@ -1,0 +1,28 @@
+
+$molecule
+Ti     0.068324  -0.002775  -1.289840
+ O    -1.540388  -0.241713  -1.357377
+ O     0.585572   0.196581   0.240570
+$end
+$temperature
+298.15
+$end
+$mult
+ 1
+$end
+$sigma
+ 2
+$end
+$pressure
+1.00000
+$end
+$scale
+0.983
+$end
+$msrrho
+$end
+$freq
+348.51
+1010.35
+1059.67
+$end
